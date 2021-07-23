@@ -48,7 +48,7 @@ if __name__ == '__main__':
                     print("Please try again!")
         def lend_book(self,name_book):
             self.name_book=name_book
-            self.userinfo=input("Please enter your name to take the book")
+            self.userinfo=input("Please enter your name to take the book : ")
             print(f"Assigning {self.name_book} to {self.userinfo}.....")
             self.dictionary[self.name_book]=self.userinfo
             while True:
